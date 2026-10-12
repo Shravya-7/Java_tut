@@ -19,7 +19,7 @@ class GETTERS_AND_SETTERS{
 }
 
 public class GFG{
-  public static void main(string args[]){
+  public static void main(String args[]){
     GETTERS_AND_SETTERS ob1 = new GETTERS_AND_SETTERS();
     ob1.setA(23);
     GETTERS_AND_SETTERS ob2 = new GETTERS_AND_SETTERS();
@@ -29,7 +29,8 @@ public class GFG{
 
     System.out.println(ob1.compare(ob2));
     System.out.println(ob2.compare(ob3));
-    
+  }
+}
     
     
   
